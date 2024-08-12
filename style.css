@@ -4,7 +4,7 @@
 }
 
 body{
-    margin: 15% 15%;
+    margin: 15px;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -98,9 +98,7 @@ body{
     border-radius: 3px;
     border-color: rgb(108, 117, 125);
     font-weight: bold;
-    border: none;
     cursor: pointer;
-    border-width: 6px;
 }
 
 .bootstrap .dl:active{
@@ -122,7 +120,7 @@ body{
     font-weight: bold;
     cursor: pointer;
     border: none;
-    margin-right: 20px;
+    margin-right: px;
 }
 
 .linkedin .aocw:hover{
@@ -140,16 +138,82 @@ body{
     border-width: 1px;
     border-style: solid;
     background-color: white;
-    border: none;
     border-radius: 15px;
     font-weight: bold;
     border-color: rgb(10, 102, 194);
 }
 
 .linkedin .Save:hover{
-    border-width: 10px;
+    border-width: 3px;
 }
 
 .linkedin .Save:active{
     opacity: 0.7;
+}
+
+.pagination{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.stretch button{
+    font-size: 18px;
+    border: none;
+    color: white;
+    background-color: green;
+    cursor: pointer;
+    font-weight: bold;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    transition: padding-top 0.5s, padding-bottom 0.5s, padding-left 0.5s, padding-right 0.5s;
+}
+
+.stretch button:hover{
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 36px;
+    padding-right: 36px;
+}
+
+.Shadow button{
+    background-color: green;
+    color: white;
+    font-size: 15px;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    box-shadow: 3px 3px 5px rgba(0,0,0,0.3);
+}
+
+.Shadow button:active{
+    margin-top: 3px;
+    margin-left: 3px;
+    box-shadow: none;
+}
+
+.buttons button{
+    padding-top: 8px;
+    padding-left: 16px;
+    padding-bottom: 8px;
+    padding-right: 16px;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    border: none;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: padding 0.15, margin 0.15;
+}
+
+.buttons button:hover{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 0;
+    margin-right: 0;
+
 }
