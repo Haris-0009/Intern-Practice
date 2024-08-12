@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 15% 15%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.uber button{
+    color: white;
+    background-color: black;
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+    border: none;
+}
+
+.uber button:hover{
+    opacity: 0.7;
+}
+
+.uber button:active{
+    opacity: 0.5;
+}
+
+.amazon button{
+    color: black;
+    background-color: rgb(255, 216, 20);
+    height: 40px;
+    width: 180px;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.amazon button:hover{
+     background:rgb(224, 144, 15);
+}
+
+.amazon button:active{
+    opacity: 0.7;
+}
+
+.github button{
+    color: white;
+    background-color: rgb(46, 164, 79);
+    border: none;
+    cursor: pointer;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 15px;
+    height: 40px;
+    width: 100px;
+    transition: box-shadow 0.5s;
+}
+
+.github button:hover{
+    box-shadow: 0px 5px 5px rgba(0,0,0,0.15);
+}
+
+.github button:active{
+    opacity: 0.7;
+}
+
+.bootstrap .gs {
+    height: 40px;
+    width: 120px;
+    color: white;
+    background-color: rgb(121, 82, 179);
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    transition: box-shadow 0.5s;
+    margin-right: 20px;
+}
+
+.bootstrap .gs:hover{
+    background-color: rgb(89, 60, 133);
+}
+
+.bootstrap .gs:active{
+    opacity: 0.7;
+}
+
+.bootstrap .dl{
+    height: 40px;
+    width: 120px;
+    color: rgb(108, 117, 125);
+    background-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 3px;
+    border-color: rgb(108, 117, 125);
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-width: 6px;
+}
+
+.bootstrap .dl:active{
+    opacity: 0.7;
+}
+
+.bootstrap .dl:hover{
+    color: white;
+    background-color: rgb(108, 117, 125);
+}
+
+
+.linkedin .aocw{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    height: 30px;
+    width: 200px;
+    border-radius: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    margin-right: 20px;
+}
+
+.linkedin .aocw:hover{
+    background-color: rgb(6, 73, 141);
+}
+
+.linkedin .aocw:active{
+    opacity: 0.7;
+}
+
+.linkedin .Save{
+    height: 30px;
+    width: 50px;
+    color: rgb(10, 102, 194);
+    border-width: 1px;
+    border-style: solid;
+    background-color: white;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
+    border-color: rgb(10, 102, 194);
+}
+
+.linkedin .Save:hover{
+    border-width: 10px;
+}
+
+.linkedin .Save:active{
+    opacity: 0.7;
+}
