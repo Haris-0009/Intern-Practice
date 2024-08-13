@@ -11,6 +11,10 @@ body{
     gap: 30px;
 }
 
+.container{
+    background: linear-gradient(to right bottom rgb(22, 22, 165), rgb(143, 21, 143));
+
+}
 .uber button{
     color: white;
     background-color: black;
@@ -216,4 +220,174 @@ body{
     margin-left: 0;
     margin-right: 0;
 
+}
+
+
+/* TEXT HTML   */
+
+.tahoma{
+    font-family: Tahoma;
+    font-weight: bold;
+}
+
+.deal {
+    font-family: arial;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.deal h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(247, 81, 81);
+    font-style: italic;
+    text-decoration: none;
+}
+
+.verdena{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.verdena .heading{
+    line-height: 26px;
+}
+
+.verdena .heading p{
+    color: rgb(144, 131, 131);
+
+}
+
+.verdena .get-started{
+    margin-top: 20px;
+    line-height: 24px;
+}
+
+.verdena .get-started button{
+    margin-top: 20px;
+    font-size: 15px;
+    cursor: pointer;
+    border: none;
+    height: 40px;
+    width: 120px;
+    background-color: green;
+    color: white;
+    border-radius: 10px;
+}
+
+.verdena .get-started button:active{
+    opacity: 0.7;
+}
+
+.shopping{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 50px;
+}
+
+.shopping p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.shopping p span{
+    color: rgb(0, 81, 139);
+}
+
+p{
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     margin-top: 0;
+     margin-bottom: 0;
+}
+
+.new{
+    color: rgb(255, 102, 0);
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: -20px;
+
+}
+
+.product{
+    font-size: 18px;
+    color: black;
+    font-weight: bold;
+}
+.title{
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: -25px;
+}
+
+.price{
+    font-size: 15px;
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+
+.buy button{
+    margin-bottom: -5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    background-color: rgb(22, 81, 208);
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+}
+
+.buy button:active{
+    opacity: 0.7;
+}
+
+.ex-5f p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 20px;
+}
+
+.ex-5f .amount{
+    font-size: 45px;
+    margin-bottom: 15px;
+}
+
+.ex-5f .amount span{
+    font-size: 20px;
+    color: rgb(144, 131, 131);
+}
+
+.ex-5f .reading{
+    color: green;
+    margin-bottom: 15px;
+}
+
+.ex-5f .After{
+    color: rgb(144, 131, 131);
+}
+
+.ex-5f .After span{
+    color: red;
+}
+
+.ex-5g p{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 20px;
+}
+ 
+
+.ex-5g .free{
+    margin-bottom: 20px;
+}
+
+
+.ex-5g .free span{
+    color:rgb(144, 131, 131) ;
+}
+
+.ex-5g .chp{
+    margin-top: 20px;
+}
+.ex-5g .chp span{
+    color: rgb(18, 142, 192);
 }
