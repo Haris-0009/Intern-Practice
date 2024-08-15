@@ -659,6 +659,8 @@ form p{
 
 .profile-requests {
     font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 300px;
     width: 300px;
 }
 
@@ -713,8 +715,10 @@ form p{
 }
 
 .card{
-    width: 200px;
-    height: 300px;
+    display: grid;
+    grid-template-columns: 200px ;
+    /* width: 200px; */
+    /* height: 300px; */
     box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
     border-radius: 8px;
     transition: transform 0.5s;
@@ -767,6 +771,7 @@ form p{
 
 .card-btn button{
     margin-left: 10px;
+    margin-bottom: 10px;
     height: 30px;
     width: 100px;
     cursor: pointer;
@@ -781,3 +786,150 @@ form p{
 }
 
 
+.box{
+    border-width: 2px;
+    border-style: solid;
+    width: 300px;
+    border-radius: 6px;
+    border-color: #888888;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flexbox{
+    font-weight: 500;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 12px;
+    padding-right: 12px;
+}
+
+.notification{
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+    background-color: #416cea;
+    border-radius: 15px;
+    font-weight: bold;
+
+}
+
+
+.Search-bar{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #614792;
+    width: 900px;
+    color: #ccc4d1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.Search-bar p{
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.Search-bar input{
+    width: 500px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    border-radius: 50px;
+    background-color: #ccc4d1;
+    color: #757575;
+    font-size: 15px;
+}
+
+.Search-bar button{
+    font-weight: 500;
+    border-width: 1px;
+    border-color: #ccc4d1;
+    color: #ccc4d1;
+    background: #614792;
+    cursor: pointer;
+    border-style: solid;
+    border-radius: 2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.Search-bar button:hover{
+    background-color: #ccc4d1;
+    color: #614792;
+}
+
+.Search-bar button:active{
+    opacity: 0.7;
+}
+
+
+
+.request-2{
+    width: 300px;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgb(0, 0,0,0.25);
+    transition: transform 0.5s;
+}
+
+.request-2:hover{
+    transform: scale(1.1);
+
+}
+
+
+.request-2 img{
+    margin-left: 10px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+
+
+.request-2 button{
+    font-weight: bold;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-right: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+    color: white;
+    background-color: #3c88de;
+    border: none;
+    border-radius: 3px;
+}
+
+
+.request-2 .name p{ 
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: left;
+}
