@@ -551,3 +551,191 @@ form p{
     color: rgb(10, 102, 194);
     border-color: rgb(10, 102, 194);
 }
+
+.google-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.google-form img{
+    width: 300px;
+}
+
+.cs p{
+    width: 250px;
+    vertical-align: middle;
+    display: inline-block;
+    text-align: left;
+}
+
+.inputs input{
+    display: block;
+    margin: 10px;
+}
+
+
+.sign-up .Email-btn input{
+    display: block;
+    width: 425px;
+    margin-top: 20px;
+}
+
+.sign-up .Email-btn button{
+    
+    display: block;
+    width: 460px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    margin-top: 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    color: white;
+    background-color: rgb(10, 102, 194);
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.sign-up .Email-btn button:active{
+    opacity: 0.7;
+}
+
+.uber-form {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.uber-form h1{
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.uber-form input{
+    display: block;
+    background-color: #e4e4e4;
+    color: #888888;
+    border: none;
+    border-radius: 0;
+    margin: 10px 0 10px;
+    width: 300px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+
+
+
+.uber-form .request{
+    font-size: 15px;
+    margin-top: 20px;
+    color: #cecece;
+    background-color: black;
+    height: 40px;
+    width: 120px;
+    cursor: pointer;
+    border: none;
+}
+
+.uber-form .schedule{
+    margin-left: 15px;
+    font-size: 15px;
+    height: 40px;
+    width: 160px;
+    color: black;
+    background-color: #cecece;
+    cursor: pointer;
+    border: none;
+}
+
+.uber-form button:active{
+    opacity: 0.7;
+}
+
+
+.profile-requests {
+    font-family: Arial, Helvetica, sans-serif;
+    width: 300px;
+}
+
+.profile-requests img{
+    height: 50px;
+    width: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50px;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+.profile-requests p{
+    text-align: left    ;
+    font-size: 15px;
+    color: #949494;
+}
+
+.profile-requests .name{
+    font-weight: bold;
+    color: black;
+}
+
+.profile-requests button{
+    font-weight: bold;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-right: 20px;
+    vertical-align: middle;
+    cursor: pointer;
+    color: white;
+    background-color: #3c88de;
+    border: none;
+    border-radius: 3px;
+}
+
+.profile-requests button:active {
+    opacity: 0.7;
+}
+
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
+    border-radius: 15px;
+}
+
+.card-img img{
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.card-content{
+    padding: 10px;
+}
+
+.card-content img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+    object-position: center;
+    
+}
